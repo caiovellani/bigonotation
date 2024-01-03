@@ -1,0 +1,36 @@
+- Medição abstrata da ordem de crescimento de um algoritimo conforme a entrada aumenta. 
+  - Tempo de execução
+  - Espaço
+
+- Análise Assintótica 
+
+  x = nˆ2
+  x = 990nˆ2
+  x = nˆ2 +54n + 13 
+
+Big O - Ômicron
+(Notação em Big O)
+Space Complexity / Time Complexity
+
+
+O(1) - Constante
+O(log n) - Logarítimica - Mais performático
+O(n) - Linear
+O(n * Log n) - Log Linear
+O(nˆ2) - Quadrático 
+O(2ˆn) - Exponencial - Pior de todos. Tentar não usar. 
+ 
+
+
+Exemplo Busca Linear
+RECEITA: 
+  - Somar cada passo do algoritimo
+  - 3 + i * 3 = 3n + 3
+  
+  - ignorar as constantes
+  3n 
+
+  - ignorar os fatores multiplicativos
+  n 
+
+  O(n)
